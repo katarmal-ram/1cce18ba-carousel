@@ -1,271 +1,282 @@
-
 {
-  "meta": {
-    "title": "Home - Khodiyar Brass Industries",
-    "description": "Leading manufacturer of precision brass components with over three decades of excellence in engineering and manufacturing."
-  },
   "hero": {
     "type": "carousel",
-    "enabled": true,
     "slides": [
       {
-        "title": "Precision Engineering Excellence",
-        "subtitle": "Manufacturing superior brass components since 1985",
-        "backgroundImage": "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?w=1920&h=1080&fit=crop&auto=format",
         "cta": {
-          "primary": "View Products",
+          "primary": "View Precision Components",
           "secondary": "Learn More",
           "primaryAction": "/products",
           "secondaryAction": "/about"
-        }
+        },
+        "title": "Precision Brass Components for Global Industries",
+        "subtitle": "13 Years of Excellence in Advanced Manufacturing Solutions",
+        "backgroundImage": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2?w=1920&h=1080&fit=crop&auto=format"
       },
       {
-        "title": "Advanced Manufacturing Solutions",
-        "subtitle": "State-of-the-art CNC machining and quality assurance",
-        "backgroundImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1920&h=1080&fit=crop&auto=format",
         "cta": {
-          "primary": "Our Services",
+          "primary": "Explore Manufacturing Capabilities",
           "secondary": "Contact Us",
           "primaryAction": "/services",
           "secondaryAction": "/contact"
-        }
+        },
+        "title": "Advanced CNC and Semi-Automatic Manufacturing Technology",
+        "subtitle": "Over 105 Machines Delivering Precision Engineering Solutions",
+        "backgroundImage": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2?w=1920&h=1080&fit=crop&auto=format"
       },
       {
-        "title": "Your Trusted Brass Partner",
-        "subtitle": "Reliable, precise, and certified manufacturing solutions",
-        "backgroundImage": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1920&h=1080&fit=crop&auto=format",
         "cta": {
-          "primary": "Get Quote",
+          "primary": "Partner With Us",
           "secondary": "Schedule Visit",
-          "primaryAction": "/contact",
-          "secondaryAction": "tel:+91-281-567-8900"
-        }
+          "primaryAction": "/about",
+          "secondaryAction": "tel:+919876543210"
+        },
+        "title": "Trusted Precision Manufacturing Partner for Global Brands",
+        "subtitle": "Delivering High-Quality Automotive and Pneumatic Components",
+        "backgroundImage": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2?w=1920&h=1080&fit=crop&auto=format"
       }
-    ]
+    ],
+    "enabled": true
+  },
+  "meta": {
+    "title": "Jamnagar Brass Industries - Precision Component Manufacturing",
+    "description": "Leading precision brass component manufacturer with 13 years of experience, specializing in automotive and pneumatic parts using advanced CNC technology."
   },
   "sections": {
-    "whyChooseUs": {
-      "type": "why-choose-us",
-      "enabled": true,
-      "title": "Why Choose Khodiyar Brass Industries",
-      "subtitle": "Excellence in every aspect of manufacturing",
-      "items": [
-        {
-          "id": "quality",
-          "icon": "award",
-          "title": "Unmatched Quality",
-          "description": "ISO 9001:2015 certified manufacturing with rigorous quality control at every stage of production."
-        },
-        {
-          "id": "experience",
-          "icon": "clock",
-          "title": "35+ Years Experience",
-          "description": "Over three decades of expertise in precision brass component manufacturing and engineering solutions."
-        },
-        {
-          "id": "technology",
-          "icon": "cog",
-          "title": "Advanced Technology",
-          "description": "State-of-the-art CNC machining centers and automated production systems for superior precision."
-        }
-      ]
-    },
-    "aboutusintro": {
-      "type": "about-us-intro",
-      "enabled": true,
-      "title": "About Khodiyar Brass Industries",
-      "subtitle": "Leaders in precision brass manufacturing",
-      "description": "Established in 1985, Khodiyar Brass Industries has grown to become one of India's leading manufacturers of precision brass components. We specialize in producing high-quality brass fittings, valves, electrical components, and custom machined parts for diverse industrial applications worldwide.",
-      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
-      "highlights": [
-        "ISO 9001:2015 Certified",
-        "500+ Product Variants Available",
-        "50+ Countries Served",
-        "24/7 Technical Support"
-      ]
-    },
-    "stats": {
-      "type": "stats",
-      "enabled": true,
-      "title": "Our Manufacturing Achievements",
-      "subtitle": "Numbers that speak for our excellence",
-      "items": [
-        { "number": "35+", "label": "Years Experience" },
-        { "number": "500+", "label": "Product Variants" },
-        { "number": "50+", "label": "Countries Served" },
-        { "number": "10000+", "label": "Satisfied Clients" }
-      ]
-    },
-    "expertise": {
-      "type": "expertise",
-      "enabled": true,
-      "title": "Our Industry Expertise",
-      "subtitle": "Serving diverse industries with precision brass components",
-      "description": "Our brass components are trusted across multiple industries for their durability, precision, and reliability.",
-      "sectors": [
-        {
-          "id": "automotive",
-          "name": "Automotive Industry",
-          "description": "High-precision brass components for automotive applications including fuel systems and engine parts.",
-          "image": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=600&q=80",
-          "applications": [
-            "Engine Components",
-            "Fuel Systems",
-            "Brake Fuel",
-            "Transmission Parts",
-            "Cooling Systems"
-          ]
-        },
-        {
-          "id": "electrical",
-          "name": "Electrical Industry",
-          "description": "Conductive brass components for electrical and electronic applications.",
-          "image": "https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&w=600&q=80",
-          "applications": [
-            "Electrical Contacts",
-            "Terminal Connectors",
-            "Switch Components",
-            "Circuit Breakers",
-            "Grounding Components"
-          ]
-        },
-        {
-          "id": "construction",
-          "name": "Construction Industry",
-          "description": "Durable brass fittings and hardware for construction and plumbing applications.",
-          "image": "https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?auto=format&fit=crop&w=600&q=80",
-          "applications": [
-            "Plumbing Fittings",
-            "Door Hardware",
-            "Window Fittings",
-            "Structural Components",
-            "Decorative Elements"
-          ]
-        },
-        {
-          "id": "marine",
-          "name": "Marine Industry",
-          "description": "Corrosion-resistant brass components for marine and offshore applications.",
-          "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=80",
-          "applications": [
-            "Propeller Shafts",
-            "Seawater Valves",
-            "Marine Fittings",
-            "Navigation Equipment",
-            "Hull Components"
-          ]
-        },
-        {
-          "id": "aerospace",
-          "name": "Aerospace Industry",
-          "description": "High-performance brass components meeting aerospace industry standards.",
-          "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=600&q=80",
-          "applications": [
-            "Precision Components",
-            "Hydraulic Fittings",
-            "Fuel System",
-            "Avionics Navigation",
-            "Control Mechanisms"
-          ]
-        },
-        {
-          "id": "industrial",
-          "name": "Heavy Machinery",
-          "description": "Robust brass components for industrial machinery and equipment applications.",
-          "image": "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?auto=format&fit=crop&w=600&q=80",
-          "applications": [
-            "Machine Components",
-            "Hydraulic Fittings",
-            "Valve Bodies",
-            "Pressure Vessels",
-            "Heat Exchangers"
-          ]
-        },
-        {
-          "id": "hvac",
-          "name": "HVAC Systems",
-          "description": "Brass fittings and components for heating, ventilation, and air conditioning systems.",
-          "image": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=600&q=80",
-          "applications": [
-            "Pipe Fittings",
-            "Valve Components",
-            "Manifold Parts",
-            "Control Systems",
-            "Refrigeration Components"
-          ]
-        },
-        {
-          "id": "oil-gas",
-          "name": "Oil & Gas",
-          "description": "High-pressure brass components for oil and gas exploration and processing.",
-          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80",
-          "applications": [
-            "Drilling Equipment",
-            "Pipeline Fittings",
-            "Pressure Gauges",
-            "Safety Valves",
-            "Processing Equipment"
-          ]
-        }
-      ]
-    },
-    "testimonials": {
-      "type": "testimonials",
-      "enabled": true,
-      "title": "What Our Clients Say",
-      "subtitle": "Trusted by industry leaders worldwide",
-      "items": [
-        {
-          "id": "client-1",
-          "name": "Rajesh Kumar",
-          "company": "Gujarat Engineering Ltd",
-          "designation": "Procurement Manager",
-          "content": "Khodiyar Brass Industries has been our trusted partner for over 15 years. Their quality consistency and timely delivery have been exceptional.",
-          "rating": 5,
-          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80"
-        },
-        {
-          "id": "client-2",
-          "name": "Sarah Johnson",
-          "company": "International Industrial Solutions",
-          "designation": "Supply Chain Director",
-          "content": "The precision and quality of their brass components have exceeded our expectations. Highly recommended for critical applications.",
-          "rating": 5,
-          "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1a7?auto=format&fit=crop&w=150&q=80"
-        }
-      ]
-    },
-    "faqs": {
-      "type": "faqs",
-      "enabled": true,
-      "title": "Frequently Asked Questions",
-      "subtitle": "Common questions about our products and services",
-      "items": [
-        {
-          "id": "minimum-order",
-          "question": "What is the minimum order quantity?",
-          "answer": "Our minimum order quantity varies by product type. For standard brass fittings, it's typically 100 pieces, while custom components may have different requirements based on complexity."
-        },
-        {
-          "id": "lead-time",
-          "question": "What are the typical lead times?",
-          "answer": "Standard products: 2-3 weeks, Custom components: 4-6 weeks, depending on complexity and quantity. We also offer expedited services for urgent requirements."
-        }
-      ]
-    },
     "cta": {
       "type": "cta",
+      "title": "Ready to Experience Precision Manufacturing Excellence",
       "enabled": true,
-      "title": "Ready to Experience Precision Excellence?",
-      "subtitle": "Join thousands of satisfied clients who trust Khodiyar Brass Industries for their precision brass component needs.",
+      "subtitle": "Partner with industry leaders delivering high-quality precision components for critical applications",
       "primaryCTA": {
-        "text": "Explore Our Products",
+        "text": "Explore Our Product Range",
         "action": "/products"
       },
       "secondaryCTA": {
-        "text": "Contact Now",
+        "text": "Request Consultation",
         "action": "/contact"
       }
+    },
+    "faqs": {
+      "type": "faqs",
+      "items": [
+        {
+          "id": "minimum-order-quantity",
+          "answer": "We offer flexible minimum order quantities ranging from 100 to 10,000 units depending on component complexity and specifications. Custom requirements are always welcome.",
+          "question": "What are your minimum order quantities?"
+        },
+        {
+          "id": "lead-time",
+          "answer": "Standard component lead times range from 2-4 weeks, with expedited options available for urgent requirements. Custom components may require 4-6 weeks for production.",
+          "question": "How long does production take?"
+        }
+      ],
+      "title": "Frequently Asked Questions",
+      "enabled": true,
+      "subtitle": "Get answers to common questions about our manufacturing services"
+    },
+    "stats": {
+      "type": "stats",
+      "items": [
+        {
+          "label": "Years of Experience",
+          "number": "13+"
+        },
+        {
+          "label": "Product Variants",
+          "number": "500+"
+        },
+        {
+          "label": "Global Reach",
+          "number": "50+"
+        },
+        {
+          "label": "Satisfied Clients",
+          "number": "10000+"
+        }
+      ],
+      "title": "Our Manufacturing Performance and Achievements",
+      "enabled": true,
+      "subtitle": "Proven track record of precision engineering excellence"
+    },
+    "expertise": {
+      "type": "expertise",
+      "title": "Industries We Serve with Precision",
+      "enabled": true,
+      "sectors": [
+        {
+          "id": "automotive-sector",
+          "name": "Automotive Manufacturing",
+          "image": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2?auto=format&fit=crop&w=600&q=80",
+          "description": "Specialized precision brass components for automotive electrical systems, ensuring high performance and reliability in critical applications.",
+          "applications": [
+            "Spark Plug Connectors",
+            "Battery Terminals",
+            "Electrical Sensors",
+            "Wiring Harness Components",
+            "Engine Mounting Brackets"
+          ]
+        },
+        {
+          "id": "pneumatic-sector",
+          "name": "Pneumatic Systems",
+          "image": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2?auto=format&fit=crop&w=600&q=80",
+          "description": "High-precision brass valves and cylinders designed for industrial pneumatic equipment with superior durability and performance.",
+          "applications": [
+            "Pneumatic Valves",
+            "Air Cylinders",
+            "Pressure Regulators",
+            "Flow Control Components",
+            "Actuator Fittings"
+          ]
+        },
+        {
+          "id": "electrical-sector",
+          "name": "Electrical Equipment",
+          "image": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2?auto=format&fit=crop&w=600&q=80",
+          "description": "Precision electrical connectors and components manufactured to meet stringent quality standards for reliable electrical systems.",
+          "applications": [
+            "Power Connectors",
+            "Circuit Breaker Parts",
+            "Electrical Terminals",
+            "Switch Components",
+            "Relay Housings"
+          ]
+        },
+        {
+          "id": "aerospace-sector",
+          "name": "Aerospace Engineering",
+          "image": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2?auto=format&fit=crop&w=600&q=80",
+          "description": "Specialized precision components designed for aerospace applications requiring exceptional quality and performance standards.",
+          "applications": [
+            "Sensor Housings",
+            "Hydraulic Fittings",
+            "Electrical Connectors",
+            "Mounting Brackets",
+            "Control System Components"
+          ]
+        },
+        {
+          "id": "medical-sector",
+          "name": "Medical Equipment",
+          "image": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2?auto=format&fit=crop&w=600&q=80",
+          "description": "Precision brass components manufactured with highest quality standards for critical medical device and equipment applications.",
+          "applications": [
+            "Surgical Instrument Parts",
+            "Diagnostic Equipment Components",
+            "Valve Assemblies",
+            "Connector Systems",
+            "Precision Fittings"
+          ]
+        },
+        {
+          "id": "industrial-sector",
+          "name": "Industrial Machinery",
+          "image": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2?auto=format&fit=crop&w=600&q=80",
+          "description": "Robust and precise brass components designed for heavy-duty industrial machinery with exceptional durability and performance.",
+          "applications": [
+            "Hydraulic Fittings",
+            "Valve Components",
+            "Bearing Housings",
+            "Mounting Brackets",
+            "Precision Connectors"
+          ]
+        },
+        {
+          "id": "renewable-sector",
+          "name": "Renewable Energy",
+          "image": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2?auto=format&fit=crop&w=600&q=80",
+          "description": "Specialized precision components supporting renewable energy infrastructure with high-performance brass manufacturing capabilities.",
+          "applications": [
+            "Solar Panel Connectors",
+            "Wind Turbine Components",
+            "Electrical Interfaces",
+            "Mounting Systems",
+            "Control Mechanism Parts"
+          ]
+        },
+        {
+          "id": "marine-sector",
+          "name": "Marine Engineering",
+          "image": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2?auto=format&fit=crop&w=600&q=80",
+          "description": "Corrosion-resistant brass components engineered for demanding marine environments with superior performance and reliability.",
+          "applications": [
+            "Marine Electrical Connectors",
+            "Hydraulic Fittings",
+            "Navigation Equipment Parts",
+            "Valve Systems",
+            "Sensor Housings"
+          ]
+        }
+      ],
+      "subtitle": "Comprehensive precision manufacturing across multiple industrial sectors",
+      "description": "Jamnagar Brass Industries delivers high-quality, precision-engineered brass components across diverse industries, ensuring superior performance and reliability."
+    },
+    "whyChooseUs": {
+      "type": "why-choose-us",
+      "items": [
+        {
+          "id": "quality-standards",
+          "icon": "award",
+          "title": "Superior Quality Assurance",
+          "description": "Rigorous quality control processes and ISO-certified manufacturing ensuring consistent, high-precision components meeting international standards."
+        },
+        {
+          "id": "manufacturing-expertise",
+          "icon": "trending-up",
+          "title": "Advanced Manufacturing Technology",
+          "description": "Utilizing 105+ semi-automatic and CNC machines for precise, efficient, and scalable production of complex brass components."
+        },
+        {
+          "id": "industry-experience",
+          "icon": "clock",
+          "title": "13 Years of Experience",
+          "description": "Proven track record of delivering high-performance precision components across multiple industries with consistent reliability."
+        }
+      ],
+      "title": "Why Choose Jamnagar Brass Industries",
+      "enabled": true,
+      "subtitle": "Delivering precision, quality, and innovation in manufacturing"
+    },
+    "aboutusintro": {
+      "type": "about-us-intro",
+      "image": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2?auto=format&fit=crop&w=800&q=80",
+      "title": "About Jamnagar Brass Industries",
+      "enabled": true,
+      "subtitle": "Precision Manufacturing Leaders in Brass Components",
+      "highlights": [
+        "ISO Certified",
+        "500+ Product Variants",
+        "Global Manufacturing",
+        "24/7 Production"
+      ],
+      "description": "Established in 2012, Jamnagar Brass Industries is a leading precision brass component manufacturer specializing in automotive, pneumatic, and electrical parts. Our state-of-the-art facility in Jamnagar delivers high-quality solutions to global industries."
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "items": [
+        {
+          "id": "automotive-client-testimonial",
+          "name": "Rajesh Patel",
+          "image": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2?auto=format&fit=crop&w=150&q=80",
+          "rating": 5,
+          "company": "AutoTech Solutions",
+          "content": "Exceptional precision and consistent quality. Jamnagar Brass Industries has been our trusted partner for critical automotive electrical components.",
+          "designation": "Procurement Manager"
+        },
+        {
+          "id": "industrial-client-testimonial",
+          "name": "Michael Thompson",
+          "image": "https://images.unsplash.com/photo-1581579186913-45ac24ed53d2?auto=format&fit=crop&w=150&q=80",
+          "rating": 5,
+          "company": "Global Industrial Systems",
+          "content": "Outstanding manufacturing capabilities and reliability. Their precision components consistently meet our stringent quality requirements.",
+          "designation": "Director of Engineering"
+        }
+      ],
+      "title": "Client Success Stories",
+      "enabled": true,
+      "subtitle": "Trusted by Leading Companies Worldwide"
     }
   }
 }
